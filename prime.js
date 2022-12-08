@@ -1,8 +1,8 @@
-function checkprime(num){
+function checkprime(number){
  let count = 0;
 
-  for(let i=0;i<num;i++){
-    if(num%i==0){
+  for(let i=0;i<number;i++){
+    if(number%i==0){
       count++;
       
   }
